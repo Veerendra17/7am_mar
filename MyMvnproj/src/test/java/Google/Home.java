@@ -27,6 +27,7 @@ public class Home
     }
 	public void open()
 	{
+		System.out.println("opening website");
 		driver.manage().window().maximize();
 		driver.get("http://www.google.com");		
 	}
