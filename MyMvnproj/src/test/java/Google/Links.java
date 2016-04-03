@@ -24,6 +24,7 @@ public class Links
 	}
     public Links(WebDriver driver)
     {
+    	System.out.println("hello");
     	this.driver=driver;
     }
 	public void getlinks()
